@@ -1,0 +1,189 @@
+{
+  "Index": {
+    "meta_title": "Python and AI Course - Master Python and AI Techniques with Expert Guidance",
+    "meta_description": "Join our comprehensive Python and AI course, designed to equip you with essential programming skills and advanced AI knowledge."
+  },
+  "Navbar": {
+    "sign_in": "Sign In",
+    "sign_up": "Sign Up",
+    "product": "Course Content",
+    "docs": "Documentation",
+    "blog": "Blog",
+    "community": "Community",
+    "company": "About Us"
+  },
+  "Hero": {
+    "follow_twitter": "Follow @CoralFlow on LinkedIn",
+    "title": "Master <important>Python and AI</important> with Expert Guidance.",
+    "description": "Join our comprehensive course to learn Python programming and advanced AI techniques, including machine learning, deep learning, and generative AI.",
+    "primary_button": "Get Started",
+    "secondary_button": "Learn More"
+  },
+  "Sponsors": {
+    "title": "Sponsored by"
+  },
+  "Features": {
+    "section_subtitle": "Course Highlights",
+    "section_title": "Unlock the Full Potential of Python and AI",
+    "section_description": "Our course offers a structured and detailed curriculum covering both the basics and advanced topics in Python and AI.",
+    "feature1_title": "Advanced Python",
+    "feature1_description": "Learn advanced Python concepts and techniques to build powerful applications and tools.",
+    "feature2_title": "Natural Language Processing",
+    "feature2_description": "Discover the fundamentals of natural language processing and how to apply them to text analysis and sentiment analysis.",
+    "feature3_title": "Machine Learning",
+    "feature3_description": "Understand the principles of machine learning and how to apply them to real-world problems.",
+    "feature4_title": "Deep Learning",
+    "feature4_description": "Explore deep learning concepts and techniques, including neural networks and convolutional neural networks.",
+    "feature5_title": "Generative AI",
+    "feature5_description": "Learn about generative AI models and how to create your own generative AI applications.",
+    "feature6_title": "Hands-on Projects",
+    "feature_description": "Gain practical experience with hands-on projects and real-world applications."
+  },
+  "Team": {
+    "team1_name": "Alice",
+    "team1_title": "Python Instructor",
+    "team1_description": "Alice is an experienced Python developer and instructor with a passion for teaching and sharing knowledge.",
+    "team1_social_links": {
+      "twitter": "https://twitter.com",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com"
+    }
+  },
+  "Pricing": {
+    "section_subtitle": "Course Plans",
+    "section_title": "Choose the Plan That Suits You",
+    "section_description": "Flexible pricing options to accommodate your learning needs.",
+    "button_text": "Enroll Now"
+  },
+  "PricingPlan": {
+    "free_plan_name": "Basic",
+    "premium_plan_name": "Pro",
+    "enterprise_plan_name": "Enterprise",
+    "free_plan_description": "For individuals starting out",
+    "premium_plan_description": "For small teams",
+    "enterprise_plan_description": "For large organizations",
+    "feature_team_member": "{number} Team Members",
+    "feature_website": "{number} Learning Modules",
+    "feature_storage": "{number} GB Storage",
+    "feature_transfer": "{number} TB Transfer",
+    "feature_email_support": "Email Support",
+    "plan_interval_month": "month",
+    "plan_interval_year": "year",
+    "next_renew_date": "Your subscription renews on {date}"
+  },
+  "FAQ": {
+    "question1": "What is the structure of the course?",
+    "answer1": "The course is structured into weekly modules, each focusing on different aspects of Python and AI, including hands-on labs and assignments.",
+    "question2": "Do I need any prior experience in programming?",
+    "answer2": "No, the course is designed for beginners and covers the basics of Python programming before moving on to more advanced topics.",
+    "question3": "How much time should I dedicate to the course each week?",
+    "answer3": "We recommend dedicating 5-10 hours per week to the course to complete the assignments and labs.",
+    "question4": "Will I receive a certificate upon completion?",
+    "answer4": "Yes, you will receive a certificate of completion at the end of the course, which you can add to your resume or LinkedIn profile.",
+    "question5": "What kind of support is available during the course?",
+    "answer5": "You will have access to a dedicated support team who can help you with any questions or issues you may have during the course.",
+    "question6": "Can I access the course materials after the course ends?",
+    "answer6": "Yes, you will have lifetime access to the course materials, so you can review them at any time."
+  },
+  "CTA": {
+    "title": "Ready to start your journey?",
+    "description": "Join our course today and take the first step towards mastering Python and AI.",
+    "button_text": "Enroll Now"
+  },
+  "Footer": {
+    "product": "Course Content",
+    "docs": "Documentation",
+    "blog": "Blog",
+    "community": "Community",
+    "company": "About Us",
+    "terms_of_service": "Terms Of Service",
+    "privacy_policy": "Privacy Policy",
+    "designed_by": "Made with ❤️ by Sunil"
+  },
+  "ProtectFallback": {
+    "not_enough_permission": "You do not have the permissions to perform this action"
+  },
+  "SignIn": {
+    "meta_title": "Sign in",
+    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+  },
+  "SignUp": {
+    "meta_title": "Sign up",
+    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+  },
+  "DashboardLayout": {
+    "home": "Home",
+    "todos": "Todos",
+    "members": "Members",
+    "billing": "Billing",
+    "settings": "Settings"
+  },
+  "Dashboard": {
+    "meta_title": "Course Dashboard",
+    "meta_description": "Access all your course materials and track your progress from the dashboard."
+  },
+  "DashboardIndex": {
+    "title_bar": "Dashboard",
+    "title_bar_description": "Welcome to your course dashboard",
+    "message_state_title": "Let's get started",
+    "message_state_description": "Customize this page by editing the file at <code>dashboard/page.tsx</code>",
+    "message_state_button": "Need help? Check out our support"
+  },
+  "UserProfile": {
+    "title_bar": "User Profile",
+    "title_bar_description": "View and manage your user profile"
+  },
+  "OrganizationProfile": {
+    "title_bar": "Organization Management",
+    "title_bar_description": "Manage your organization"
+  },
+  "Billing": {
+    "title_bar": "Billing",
+    "title_bar_description": "Manage your billing and subscription",
+    "current_section_title": "Current Plan",
+    "current_section_description": "Adjust your payment plan to best suit your requirements",
+    "manage_subscription_button": "Manage Subscription"
+  },
+  "BillingOptions": {
+    "current_plan": "Current Plan",
+    "upgrade_plan": "Upgrade Plan"
+  },
+  "CheckoutConfirmation": {
+    "title_bar": "Payment Confirmation",
+    "message_state_title": "Payment successful",
+    "message_state_description": "Your payment has been successfully processed. Thank you for your purchase!",
+    "message_state_button": "Go back to Billing"
+  },
+  "DataTable": {
+    "no_results": "No results."
+  },
+  "Todos": {
+    "title_bar": "Todo List",
+    "title_bar_description": "View and manage your todo list",
+    "add_todo_button": "New todo"
+  },
+  "TodoTableColumns": {
+    "open_menu": "Open menu",
+    "edit": "Edit",
+    "delete": "Delete",
+    "title_header": "Title",
+    "message_header": "Message"
+  },
+  "AddTodo": {
+    "title_bar": "Add Todo",
+    "add_todo_section_title": "Create a new todo",
+    "add_todo_section_description": "Fill in the form below to create a new todo"
+  },
+  "EditTodo": {
+    "title_bar": "Edit todo",
+    "edit_todo_section_title": "Modify todo",
+    "edit_todo_section_description": "Fill in the form below to edit the todo"
+  },
+  "TodoForm": {
+    "title_label": "Title",
+    "title_description": "Enter a descriptive title for your todo.",
+    "message_title": "Message",
+    "message_description": "Enter a detailed message for your todo.",
+    "submit_button": "Submit"
+  }
+}
