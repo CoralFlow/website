@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 
 import { Background } from '@/components/Background';
-import { TeamMemberCard } from '@/features/landing/TeamMemberCard'; // You need to create this component
+import { TeamMemberCard } from '@/features/landing/TeamMemberCard'; 
 import { Section } from '@/features/landing/Section';
 
 const Team = () => {
@@ -11,11 +11,33 @@ const Team = () => {
   const teamMembers = [
     {
       id: '1',
-      name: t('team1_name'),
-      image: 'https://example.com/images/john_doe.jpg',
-      bio: t('instructor1_description'),
+      name: 'Sunil N',
+      image: '/assets/team/sunil.jpg',
+      bio: 'Instructor',
       socialLinks: {
-        linkedIn: 'https://linkedin.com/in/johndoe',
+        linkedIn: 'https://linkedin.com/in/sunil-',
+        twitter: 'https://twitter.com/johndoe',
+        github: 'https://github.com/linusaltacc',
+      },
+    },
+    {
+      id: '2',
+      name: 'Vishnuraj S',
+      image: '/assets/team/vishnu.jpg',
+      bio: 'Instructor',
+      socialLinks: {
+        linkedIn: 'https://www.linkedin.com/in/vishnuraj-saravanan/',
+        twitter: 'https://twitter.com/johndoe',
+        github: 'https://github.com/johndoe',
+      },
+    },
+    {
+      id: '3',
+      name: 'Yogeshwaran S',
+      image: '/assets/team/yogesh.jpg',
+      bio: 'Instructor',
+      socialLinks: {
+        linkedIn: 'https://www.linkedin.com/in/yogeshwaran-singarasu/',
         twitter: 'https://twitter.com/johndoe',
         github: 'https://github.com/johndoe',
       },
@@ -25,9 +47,9 @@ const Team = () => {
   return (
     <Background>
       <Section
-        subtitle={t('section_subtitle')}
-        title={t('section_title')}
-        description={t('section_description')}
+        subtitle={''}
+        title={"Meet our Team"}
+        description={''}
       >
         <div className="grid grid-cols-1 gap-x-3 gap-y-8 md:grid-cols-3">
           {teamMembers.map((member) => (
@@ -40,7 +62,9 @@ const Team = () => {
             />
           ))}
         </div>
+        
       </Section>
+      
     </Background>
   );
 };

@@ -1,4 +1,5 @@
 import React from 'react';
+import { GitHubLogoIcon, TwitterLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
 
 type SocialLinks = {
   linkedIn?: string;
@@ -27,17 +28,17 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({ name, role, image, bio,
     <div className="mt-4 flex justify-around">
       {socialLinks.linkedIn && (
         <a href={socialLinks.linkedIn} target="_blank" rel="noopener noreferrer">
-          <img src="/icons/linkedin.svg" alt="LinkedIn" />
+            <LinkedInLogoIcon className="mr-1 size-5" />
         </a>
       )}
-      {socialLinks.twitter && (
+      {/* {socialLinks.twitter && (
         <a href={socialLinks.twitter} target="_blank" rel="noopener noreferrer">
           <img src="/icons/twitter.svg" alt="Twitter" />
         </a>
-      )}
+      )} */}
       {socialLinks.github && (
         <a href={socialLinks.github} target="_blank" rel="noopener noreferrer">
-          <img src="/icons/github.svg" alt="GitHub" />
+            <GitHubLogoIcon className="mr-1 size-5" />
         </a>
       )}
     </div>

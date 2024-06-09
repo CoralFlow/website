@@ -44,7 +44,7 @@ const Navbar = () => {
         </li>
 
         <li>
-          <Link href="/sign-up">{t('community')}</Link>
+          <Link href="github">{t('community')}</Link>
         </li>
 
         <li>
