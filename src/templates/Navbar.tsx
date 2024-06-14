@@ -1,13 +1,10 @@
 "use client";
-import Link from 'next/link';
-import { useTranslations } from 'next-intl';
 import { ModeToggle } from '@/templates/Theme';
 import { CenteredMenu } from '@/features/landing/CenteredMenu';
 import { Section } from '@/features/landing/Section';
 import { Logo } from './Logo';
 
 const Navbar = () => {
-  const t = useTranslations('Navbar');
   return (
     <Section className="px-3 py-6">
       <CenteredMenu

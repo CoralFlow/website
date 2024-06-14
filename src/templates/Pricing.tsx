@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 
-import { Button, buttonVariants } from '@/components/ui/button';
+import { Button } from '@/components/ui/button';
 import { PricingInformation } from '@/features/billing/PricingInformation';
 import { Section } from '@/features/landing/Section';
 import { PLAN_ID } from '@/utils/AppConfig';

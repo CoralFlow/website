@@ -1,7 +1,5 @@
-import { GitHubLogoIcon, TwitterLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
+import { LinkedInLogoIcon } from '@radix-ui/react-icons';
 import { useTranslations } from 'next-intl';
-import { GoogleGeminiEffectDemo } from './gemini';
-import { buttonVariants } from '@/components/ui/button';
 import { CenteredHero } from '@/features/landing/CenteredHero';
 import { Section } from '@/features/landing/Section';
 

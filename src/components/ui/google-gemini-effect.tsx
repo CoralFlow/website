@@ -2,7 +2,6 @@
 import { cn } from "@/utils/cn";
 import { motion, MotionValue } from "framer-motion";
 import React from "react";
-import { buttonVariants } from '@/components/ui/button';
 import { CenteredHero } from '@/features/landing/CenteredHero';
 import { Section } from '@/features/landing/Section';
 import { LinkedInLogoIcon } from '@radix-ui/react-icons';

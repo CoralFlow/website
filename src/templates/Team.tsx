@@ -1,11 +1,8 @@
-import { useTranslations } from 'next-intl';
-
 import { Background } from '@/components/Background';
 import { TeamMemberCard } from '@/features/landing/TeamMemberCard'; 
 import { Section } from '@/features/landing/Section';
 
 const Team = () => {
-  const t = useTranslations('Team');
 
   // Sample data
   const teamMembers = [
