@@ -1,17 +1,21 @@
+"use client";
 import React from 'react';
-import { AppConfig } from '@/utils/AppConfig';
 import Image from 'next/image';
+import { useTheme } from 'next-themes';
 
-const Logo = () => (
-  <div className="flex items-center text-xl font-semibold">
+const Logo = () => {
+  const { resolvedTheme } = useTheme();
+
+  return (
+    <div className={`flex items-center text-xl font-semibold ${resolvedTheme === 'dark' ? 'filter invert' : ''}`}>
       <Image
-          src="/assets/images/coralflow.svg"
-          alt="Clerk"
-          width="100"
-          height="30"
-        />
-    {/* {AppConfig.name} */}
-  </div>
-);
+        src="/assets/images/coralflow.svg"
+        alt="Clerk"
+        width="100"
+        height="30"
+      />
+    </div>
+  );
+};
 
 export { Logo };

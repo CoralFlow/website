@@ -77,15 +77,15 @@ const Footer = () => {
         legalLinks={
           <>
             <li>
-              <Link href="/sign-up">{t('terms_of_service')}</Link>
+              <Link href="/">{t('terms_of_service')}</Link>
             </li>
             <li>
-              <Link href="/sign-up">{t('privacy_policy')}</Link>
+              <Link href="/">{t('privacy_policy')}</Link>
             </li>
           </>
         }
       >
-        <li>
+        {/* <li>
           <Link href="/sign-up">{t('product')}</Link>
         </li>
 
@@ -103,7 +103,7 @@ const Footer = () => {
 
         <li>
           <Link href="/sign-up">{t('company')}</Link>
-        </li>
+        </li> */}
       </CenteredFooter>
     </Section>
   );

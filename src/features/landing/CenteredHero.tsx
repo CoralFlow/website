@@ -7,7 +7,7 @@ const CenteredHero = (props: {
   };
   title: React.ReactNode;
   description: string;
-  buttons: React.ReactNode;
+  // buttons: React.ReactNode;
 }) => (
   <>
     <div className="text-center">
@@ -21,7 +21,7 @@ const CenteredHero = (props: {
       </a>
     </div>
 
-    <div className="mt-3 text-center text-5xl font-bold tracking-tight">
+    <div className="mt-3 text-center text-5xl font-bold tracking-tight" style={{ color: '#F5F5F5' }}>
       {props.title}
     </div>
 
@@ -29,9 +29,9 @@ const CenteredHero = (props: {
       {props.description}
     </div>
 
-    <div className="mt-8 flex justify-center gap-x-5 gap-y-3 max-sm:flex-col">
+    {/* <div className="mt-8 flex justify-center gap-x-5 gap-y-3 max-sm:flex-col">
       {props.buttons}
-    </div>
+    </div> */}
   </>
 );
 

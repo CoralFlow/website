@@ -1,37 +1,26 @@
+"use client";
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-
-import LocaleSwitcher from '@/components/LocaleSwitcher';
-import { buttonVariants } from '@/components/ui/button';
+import { ModeToggle } from '@/templates/Theme';
 import { CenteredMenu } from '@/features/landing/CenteredMenu';
 import { Section } from '@/features/landing/Section';
-
 import { Logo } from './Logo';
 
 const Navbar = () => {
   const t = useTranslations('Navbar');
-
   return (
     <Section className="px-3 py-6">
       <CenteredMenu
-        logo={<Logo />}
+        logo={<Logo/>}
         rightMenu={
           <>
-              {/* <li>
-                <LocaleSwitcher />
-              </li>
               <li>
-                <Link href="/sign-in">{t('sign_in')}</Link>
+              <ModeToggle />
               </li>
-              <li>
-                <Link className={buttonVariants()} href="/sign-up">
-                  {t('sign_up')}
-                </Link>
-              </li> */}
           </>
         }
       >
-        <li>
+        {/* <li>
           <Link href="/sign-up">{t('product')}</Link>
         </li>
 
@@ -49,7 +38,7 @@ const Navbar = () => {
 
         <li>
           <Link href="/sign-up">{t('company')}</Link>
-        </li>
+        </li> */}
       </CenteredMenu>
     </Section>
   );

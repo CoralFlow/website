@@ -3,9 +3,8 @@ import '@/styles/global.css';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
-
-import { DemoBadge } from '@/components/DemoBadge';
 import { AllLocales } from '@/utils/AppConfig';
+import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata: Metadata = {
   icons: [
@@ -45,14 +44,19 @@ export default function RootLayout(props: {
   return (
     <html lang={props.params.locale}>
       <body className="bg-background text-foreground antialiased">
+      <ThemeProvider
+            attribute="class"
+            defaultTheme="light"
+            enableSystem
+            disableTransitionOnChange
+          >
         <NextIntlClientProvider
           locale={props.params.locale}
           messages={messages}
         >
           {props.children}
-
-          {/* <DemoBadge /> */}
         </NextIntlClientProvider>
+      </ThemeProvider>
       </body>
     </html>
   );

@@ -1,5 +1,4 @@
 import { getTranslations } from 'next-intl/server';
-
 import { CTA } from '@/templates/CTA';
 import { FAQ } from '@/templates/FAQ';
 import { Features } from '@/templates/Features';
@@ -7,8 +6,8 @@ import { Footer } from '@/templates/Footer';
 import { Hero } from '@/templates/Hero';
 import { Navbar } from '@/templates/Navbar';
 import { Team } from '@/templates/Team';
-import { Pricing } from '@/templates/Pricing';
-import { Sponsors } from '@/templates/Sponsors';
+import { GoogleGeminiEffectDemo } from '@/templates/gemini';
+
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -26,10 +25,9 @@ export default function IndexPage() {
   return (
     <>
       <Navbar />
-      <Hero />
-      {/* <Sponsors /> */}
+      <GoogleGeminiEffectDemo />
+      {/* <Hero /> */}
       <Features />
-      {/* <Pricing /> */}
       <Team />
       <FAQ />
       <CTA />
