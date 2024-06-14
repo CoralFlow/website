@@ -12,7 +12,6 @@ const transition = {
   ease: "linear",
 };
 
-
 export const GoogleGeminiEffect = ({
   pathLengths,
   className,
@@ -46,7 +45,7 @@ export const GoogleGeminiEffect = ({
         description={t('description')}
     />
     </Section>
-<div className="w-full h-[890px] -top-60 md:-top-40 flex items-center justify-center bg-red-transparent absolute md:mt-0 mt-40">
+<div className="w-full h-[890px] -top-60 md:-top-40 flex items-center justify-center bg-red-transparent absolute md:mt-0 mt-60">
     <button className="font-bold bg-white rounded-full px-4 py-2 md:px-4 md:py-2 mt-40 z-30 text-base md:text-base w-fit mx-auto">
         <a href="https://forms.gle/TeXJmeFWn1SA83vy8" className="bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
         Get Started
